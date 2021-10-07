@@ -1,0 +1,136 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+    border-width:0px;
+    border:none;
+
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+}
+
+input {
+    outline: none;
+    padding: 5px 5px 10px 5px;
+    margin: 10px 0;
+    color:rgb(0, 0, 0);
+    border-bottom:1px solid #000000;
+
+}
+input::placeholder {
+    color: rgb(117, 117, 117);
+  }
+
+input[type="text"]:focus {
+    outline: none;
+    border-bottom:1px solid #016301;
+}
+
+input[type="text"]:focus:hover {
+    outline: none;
+    border-bottom:1px solid #016301;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: rgb(168, 119, 119);
+    color: #fff;
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+.container {
+    width: 600px;
+    margin: 0 auto 
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.form-queue {
+    width: 100%;
+}
+
+.form-queue__input{
+    width: 100%;
+}
+
+.form-queue__btn-wrapper {
+    width: 100%;
+}
+
+.form-queue__btn {
+    background-color: rgb(168, 167, 167);
+    height: 30px;
+    text-transform: uppercase;
+    border-radius:5px;
+    border: 1px solid #fff;
+    width: 49%
+}
+
+.btn-remove:hover{
+    color:#fff;
+    background: rgb(111,48,11);
+    background: linear-gradient(0deg, rgba(111,48,11,1) 0%, rgba(255,106,93,1) 100%);}
+
+.btn-add:hover{
+    color:#fff;
+    background: rgb(11,111,28);
+    background: linear-gradient(0deg, rgba(11,111,28,1) 0%, rgba(60,253,45,1) 100%);}
