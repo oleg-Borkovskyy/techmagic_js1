@@ -9,5 +9,5 @@ app is using localstorage
 
 #How to run?
 
-1. You could download files and open index.htm with your browser
+1. You could download files and open index.html with your browser
 2. Or follow this link https://oleg-borkovskyy.github.io/techmagic_js1/
