@@ -1,10 +1,10 @@
 #This is JS HomeWork project on TechMagic training center
 
-!About 
+#About 
 
 In this app you can write some words in input field and add it to list (queue) and also u can remove element from list
 
-app is using localstorage
+App is using localstorage
 
 
 #How to run?
