@@ -47,9 +47,11 @@ const newElement = () => {
 };
 
 const removeQueueElement = () => {
-  list.removeChild(list.getElementsByTagName("li")[0]);
-  counter.count=counter.count-1
-  setStore();
+  if (counter.count >= 1) {
+    list.removeChild(list.getElementsByTagName("li")[0]);
+    counter.count=counter.count-1
+    setStore();
+    }
 };
 
 const setStore = () => {
